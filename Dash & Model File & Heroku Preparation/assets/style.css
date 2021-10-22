@@ -57,8 +57,11 @@ body {
 }
 
 .Select-control {
-    width: 256px;
-    height: 48px;
+    width: 200px;
+    height: 32px;
+    font-size: 16px;
+    background-color: #F0F0F0;
+    line-height: 0;
 }
 
 .Select--single > .Select-control .Select-value, .Select-placeholder {
@@ -76,13 +79,12 @@ body {
 }
 
 .menu-title-ph {
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     width: 10px;
+    font-size: 16px;
     font-weight: bold;
     color: #079A82;
-    letter-spacing: 5px;
 }
-
 
 .submit-button {
   background-color: #079A82; /* Green */
@@ -99,5 +101,13 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
+}
+
+.output {
+    padding-top: 30px;
+    font-weight: bold;
+    color: #0f0c04;
+     text-align: center;
+     font-size: 36px;
 }
    
