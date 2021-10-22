@@ -38,16 +38,14 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     margin-top: 32px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-.card {
-    margin-bottom: 24px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}
 
 .menu {
     height: 112px;
-    width: 1200px;
+    width: 1400px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 24px;
@@ -57,11 +55,8 @@ body {
 }
 
 .Select-control {
-    width: 200px;
-    height: 32px;
-    font-size: 16px;
-    background-color: #F0F0F0;
-    line-height: 0;
+    width: 256px;
+    height: 48px;
 }
 
 .Select--single > .Select-control .Select-value, .Select-placeholder {
@@ -81,10 +76,10 @@ body {
 .menu-title-ph {
     margin-bottom: 6px;
     width: 10px;
-    font-size: 16px;
     font-weight: bold;
     color: #079A82;
 }
+
 
 .submit-button {
   background-color: #079A82; /* Green */
@@ -102,12 +97,9 @@ body {
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
 }
-
-.output {
-    padding-top: 30px;
-    font-weight: bold;
-    color: #0f0c04;
-     text-align: center;
-     font-size: 36px;
-}
    
+.output-text {
+    text-align: center
+    margin-right: auto;
+    margin-left: auto;
+}
